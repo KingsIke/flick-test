@@ -1,12 +1,13 @@
 {
-  "name": "creditregister",
+  "name": "flick_test",
   "version": "1.0.0",
-  "description": "Flick credit register api",
+  "description": "<!-- title: 'Flick testing api' layout: Doc framework: v3 platform: NodeJS language: nodeJS authorLink: 'https://github.com/KingsIke/flick-test' authorName: 'KingIke, inc.' authorAvatar: 'https://avatars.githubusercontent.com/u/69237411?v=4&size=64' -->",
   "scripts": {
     "compile": "tsc -w",
     "start": "nodemon ./bin/www",
     "dev": "nodemon ./bin/www",
-    "test": "jest"
+    "test": "jest",
+    "build": "tsc"
   },
   "dependencies": {
     "axios": "^1.3.2",

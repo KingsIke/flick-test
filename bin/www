@@ -1,9 +1,9 @@
 #!/usr/bin/env node
 
 require('dotenv').config()
-    /**
-     * Module dependencies.
-     */
+/**
+ * Module dependencies.
+ */
 
 const app = require('../dist/app').default;
 const debug = require('debug')('expresstemp:server');
@@ -53,7 +53,7 @@ server.on('error', (error) => {
 
 //server.on('listening', onListening);
 server.on('listening', () => {
-    console.log(`CreditRegister App started and it\'s listening on port ${port}`);
+    console.log(` App started and it\'s listening on port ${port}`);
 });
 
 
