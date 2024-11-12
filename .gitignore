@@ -1,0 +1,8 @@
+**/node_modules
+dist/
+**/**/*.log
+.env
+.pem
+kings.txt
+private_key.pem
+public_key.pem
